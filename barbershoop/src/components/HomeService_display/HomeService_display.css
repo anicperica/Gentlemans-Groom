@@ -1,0 +1,30 @@
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+    width: 350px;
+    height: 450px;
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(10px); 
+    margin-right: 20px
+}
+.wrapper p{
+    font-family: 'prima-nova-italic';
+    padding: 0  15px;
+}
+.wrapper h2{
+    font-family: 'prima-nova';
+    margin-bottom: 40px;
+}
+
+.wrapper img{
+    width: 80px;
+    height: 80px;
+    fill: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+  

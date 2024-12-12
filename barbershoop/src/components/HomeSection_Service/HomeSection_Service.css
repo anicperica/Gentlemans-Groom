@@ -1,0 +1,46 @@
+.home_section_service {
+  background-image: url("../../assets/Images/HomeSection_service_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-position-y: -100px  ;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+.home_section_service-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.home_section_service-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "prima-nova";
+  width: 650px;
+}
+
+.home_section_service-text h1{
+   font-size: 40px;
+    font-family: "prima-nova-bold";
+    padding-bottom: 20px;
+  }
+  .home_section_service-text p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'prima-nova-italic';
+   }
+   
+   .Service-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 50px;
+   }

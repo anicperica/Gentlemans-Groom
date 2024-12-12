@@ -1,0 +1,21 @@
+.aboutBarbers-Wrapper {
+    background-image: url("../../assets/Images/BackgroundImages/diamond-background.svg");
+    background-repeat: repeat;
+    background-size: 450px;
+    background-color: white;
+  }
+  .aboutBarbers-container{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutBarbers-img{
+    display: flex;
+    justify-content: center;
+    padding:100px 0px;
+    gap: 50px;
+    position: relative;
+  }
+  

@@ -1,0 +1,74 @@
+.find_wrapper {
+  background-image: url("../../assets/Images/BackgroundImages/diamond-background.svg");
+  background-repeat: repeat;
+  background-size: 450px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.find_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.find_heading h1{
+    font-family: 'prima-nova-bold';
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #1E2022;
+}
+.find_heading span{
+    font-family: 'prima-nova-italic';
+    font-size: 20px;
+    margin-top: 10px;
+}
+.find_map{
+    margin-top: 150px;
+}
+.Map_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Map_section_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.Map_section_text h1{
+  font-family: 'prima-nova-bold';
+  font-size: 38px;
+  color: #1E2022;
+
+}
+.Map_section_text span{
+    font-family: 'prima-nova-italic';
+    font-size: 18px;
+    
+    
+  }
+
+  .Map_section_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'prima-nova';
+    padding-top: 50px;
+  }
+  .Map_section_info img{
+   width: 30px;
+   height: 30px;
+   margin-right: 10px;
+  }
+  .text{ 
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5
+  }

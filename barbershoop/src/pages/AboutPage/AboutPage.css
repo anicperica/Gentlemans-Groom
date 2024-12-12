@@ -1,0 +1,10 @@
+.aboutHeader_wrapper{
+    background-image: url('../../assets/Images/aboutHeader_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; 
+    
+}

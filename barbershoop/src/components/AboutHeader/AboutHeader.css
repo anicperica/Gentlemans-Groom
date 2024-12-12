@@ -1,0 +1,23 @@
+.aboutHeader-wrapper{
+    padding-top: 150px;
+    color: white;
+    margin-left: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+}
+.aboutHeader-wrapper h1{
+    font-family: 'prima-nova-bold';
+    font-size: 40px;
+}
+.aboutHeader-wrapper p{
+    font-family: 'prima-nova-italic';
+    font-size: 20px;
+    line-height: 1.7;
+    margin-top: 50px;
+}
+.aboutHeader-wrapper img{
+    width: 250px;
+    height: 250px;
+}

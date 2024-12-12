@@ -1,0 +1,109 @@
+.signLogin-wrapper {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Sprečava izlazak elemenata iz wrappera */
+    transition: height 0.3s ease;
+  }
+  
+  .signLogin-container {
+    width: 100%;
+    padding: 40px;
+    
+    transform: translateX(0); /* Inicijalna pozicija */
+  }
+  
+  .signLogin-container-register {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    padding: 40px;
+    transition: transform 0.3s ease;
+    transform: translateX(0); 
+  }
+  
+  .signLogin-wrapper.active .signLogin-container {
+    transform: translateX(-100%);
+  }
+  
+  .signLogin-wrapper.active .signLogin-container-register {
+    left: 0; 
+    transform: translateX(0);
+    
+  }
+  .signLogin-wrapper.active {
+    height: 550px; 
+  }
+
+form h1 {
+  font-family: "prima-nova";
+  font-size: 36px;
+  text-align: center;
+}
+
+form .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid;
+  border-radius: 40px;
+  padding: 10px 35px 10px 15px;
+
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; 
+}
+.rememberForgot{
+    display: flex;
+    justify-content: space-between;
+    font-family: "prima-nova";
+}
+form .signlogin-button{
+    display: flex;
+    justify-content: center;
+    margin:40px 0px;
+    width: 100%;
+}
+
+.haveAcc{ 
+    display: flex;
+    justify-content: center;
+    font-family: "prima-nova"
+}
+
+.login-button{
+    width: 100%;
+    border-radius: 40px;
+    background-color:#B02A33; ;
+    padding: 10px;
+    color:white;    
+    border: none;
+    font-family: "prima-nova";
+    font-size: 16px;
+}
+.login-button:hover{
+    background-color:#3c3232;
+}
+
+
