@@ -1,0 +1,125 @@
+.reservation_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "prima-nova";
+  position: relative;
+}
+
+
+.reservation_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 15, 1);
+  height: 100vh;
+  width: 50%;
+ 
+}
+
+.reservation_logo_inactiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 15, 1,0.5);
+  height: 100vh;
+  width: 50%;
+z-index: 0;
+  
+}
+.reservation_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background-image: url("../../assets/Images/BackgroundImages/diamond-background.svg");
+  background-repeat: repeat;
+  background-size: 450px;
+  background-color: white;
+  position: relative;
+ z-index: 1;
+}
+
+
+.reservation_input_box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+}
+
+form input {
+  padding: 10px 10px 10px 15px;
+  border-radius: 40px;
+  border: 1px, solid;
+  outline: none;
+  margin-top: 5px;
+}
+.reservation_input_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  height: 450px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background-color: white;
+}
+.reservation_input_box button{
+     background-color: #B02A33;
+     border: none;
+     border-radius: 40px;
+     padding: 15px 10px;
+     color: white;
+     font-size: 16px;
+     margin-top: 10px;
+  }
+  .reservation_input_box button:hover{
+    background-color:#3c3232;
+  }
+.service_checkbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.service_checkbox label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service_checkbox input {
+  margin: 15px 0px;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.reservation_message {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1; /* Initially behind all other elements */
+}
+
+.reservation_message.show {
+ 
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 99999; /* Initially behind all other elements */
+}

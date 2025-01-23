@@ -22,7 +22,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <>
+    
       <div className={`navbar ${scrolled ? "scrolled" : ""}`}>
         <div className="navbar_heading">
           <GiBeard style={{ fontSize: "60px", color: "white" }} />
@@ -37,7 +37,7 @@ export default function Navbar() {
             <Link to="/about">About</Link>
           </p>
           <p>
-            <Link to="/services">Services</Link>
+            <Link to="/reservation">Reservation</Link>
           </p>
           <p>
             <Link to="/#map-section">Find</Link>
@@ -47,6 +47,6 @@ export default function Navbar() {
           <Button style="navbar_button" name="Sign in" to="/signlogin" />
         </div>
       </div>
-    </>
+    
   );
 }
